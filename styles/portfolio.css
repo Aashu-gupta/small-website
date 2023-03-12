@@ -1,0 +1,11 @@
+.main{
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:768px){
+    .main .grid{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+}
