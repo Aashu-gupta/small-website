@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Website-portfolio</title>
     <link rel="icon" href="src/images/Logo/LogoWhite.svg" />
+    <title>Website-Contacts</title>
     <link rel="stylesheet" href="styles/design.css" />
-    <link rel="stylesheet" href="styles/portfolio.css" />
+    <link rel="stylesheet" href="styles/contacts.css" />
   </head>
   <body>
     <!-- ?navbar -->
@@ -31,59 +31,38 @@
     </div>
 
     <!-- ?main -->
-    <div class="main container flex-coloumn">
-      <div class="main_label label green-full">portfolio</div>
-      <div class="main_title title black-full">Lorem ipsum dolor sit amet.</div>
-      <div class="main_text text black-light">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vitae
-        dolorum sed dignissimos consequatur debitis ipsam voluptatum, odio minus
-        delectus inventore cum atque.
+    <div class="one container flex-coloumn">
+      <div class="one_label label green-full">contacts</div>
+      <div class="one_title title black-full">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit
       </div>
-      <div class="main_image grid">
-        <img
-          src="src/images/Portfolio/sample-1.svg"
-          alt=""
-          class="main_image_1 responsive-image"
-        />
-        <img
-          src="src/images/Portfolio/sample-2.svg"
-          alt=""
-          class="main_image_2 responsive-image"
-        />
-        <img
-          src="src/images/Portfolio/sample-3.svg"
-          alt=""
-          class="main_image_3 responsive-image"
-        />
-        <img
-          src="src/images/Portfolio/sample-4.svg"
-          alt=""
-          class="main_image_4 responsive-image"
-        />
-        <img
-          src="src/images/Portfolio/sample-5.svg"
-          alt=""
-          class="main_image_5 responsive-image"
-        />
-        <img
-          src="src/images/Portfolio/sample-6.svg"
-          alt=""
-          class="main_image_6 responsive-image"
-        />
-        <img
-          src="src/images/Portfolio/sample-7.svg"
-          alt=""
-          class="main_image_7 responsive-image"
-        />
-        <img
-          src="src/images/Portfolio/sample-8.png"
-          alt=""
-          class="main_image_8 responsive-image"
-        />
-      </div>
-      <button class="main_btn black-btn">learn more</button>
     </div>
+    <div class="two container grid">
+      <div class="two_left">
+        <form action="">
+          <label for="name">Name</label>
+          <input placeholder="Enter your name" type="text" id="name" />
 
+          <label for="email">Email</label>
+          <input placeholder="Enter Your email" type="email" id="email" />
+
+          <label for="message">Message</label>
+          <textarea
+            placeholder="your message here"
+            name=""
+            id="message"
+            cols="30"
+            rows="6"
+          ></textarea>
+          <button type="submit" class="submit_btn black-btn">Submit</button>
+        </form>
+      </div>
+      <img
+        src="src/images/Contact/map.svg"
+        alt=""
+        class="two_right responsive-image"
+      />
+    </div>
     <!-- ?footer -->
     <div class="hero">
       <footer class="container flex-row">
